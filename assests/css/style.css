@@ -111,7 +111,18 @@ top: 25%;
 }
 
 
-/* section second */
+ /* section second  */
+
+.prev-btn{
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
+.next-btn{
+    position: absolute;
+    left: 30%;
+    top: 30%;
+}
 @media (max-width:992px) {
     .nav_bar1 {
         left: -100%;

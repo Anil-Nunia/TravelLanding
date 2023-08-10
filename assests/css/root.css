@@ -18,6 +18,7 @@
     --fs-lg: 24px;
     --fs-2lg: 26px;
     --fs-3lg: 28px;
+    --fs-4lg: 40px;
     --fs-xl: 46px;
     --fs-2xl: 56px;
     --fs-3xl: 84px;
@@ -77,7 +78,9 @@
  .fs_3xl{
     font-size: var(--fs-3xl);
  }
-
+.fs_4lg{
+    font-size: var(--fs-4lg);
+}
 
 /* font-family */
 .ff_primary {
