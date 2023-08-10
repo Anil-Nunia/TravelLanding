@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+.card{
+    width: 537px;
+    height: 283px;
+    border-radius: 14px;
+    background: #FFF;
+    padding: 30px 30px;
+    cursor: pointer;
+}
+.card:hover{
+    border-radius: 0;
+}

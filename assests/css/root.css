@@ -89,7 +89,6 @@
 .ff_tertiary {
     font-family: var(--ff-tertiary);
 }
-
  /* font-weight */
   .fw_bold{
     font-weight: var(--bold);
