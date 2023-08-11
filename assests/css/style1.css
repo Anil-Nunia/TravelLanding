@@ -16,3 +16,26 @@
 .card:hover{
     border-radius: 0;
 }
+.icon:hover svg path{
+    fill: black;
+}
+.bttn_pstn{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 7%;
+    bottom: 15%;
+}
+.bttn_pstn_1{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 3%;
+    bottom: 15%;
+}
+.box_form{
+    width: 1170px;
+    height: 358px;
+    border-radius: 30px;
+    background: #FFD482;
+}
