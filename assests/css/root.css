@@ -1,13 +1,136 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;400&family=Space+Grotesk:wght@300;400;500;600;700&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&family=Yantramanav:wght@100;400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;400&family=Space+Grotesk:wght@300;400;500;600;700&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&family=Yantramanav:wght@100;400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;400&family=Sen:wght@400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&family=Yantramanav:wght@100;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;400&family=Space+Grotesk:wght@300;400;500;600;700&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&family=Yantramanav:wght@100;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;400&family=Space+Grotesk:wght@300;400;500;600;700&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&family=Yantramanav:wght@100;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;400&family=Sen:wght@400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&family=Yantramanav:wght@100;400;500;700;900&display=swap");
 
 :root {
-    /* font-family */
-    --ff-primary: 'Inter', sans-serif;
-    --ff-secondary: 'Poppins', sans-serif;
-    --ff-tertiary: 'Sen', sans-serif;
+  /* font-family */
+  --ff-primary: "Inter", sans-serif;
+  --ff-secondary: "Poppins", sans-serif;
+  --ff-tertiary: "Sen", sans-serif;
 
+  /* font-size */
+  --fs-2xs: 12px;
+  --fs-xs: 14px;
+  --fs-sm: 14px;
+  --fs-2sm: 14px;
+  --fs-md: 20px;
+  --fs-2md: 18px;
+  --fs-lg: 24px;
+  --fs-2lg: 26px;
+  --fs-3lg: 20px;
+  --fs-xl: 40px;
+  --fs-2xl: 35px;
+  --fs-3xl: 84px;
+
+  /* font-weight */
+
+  --bold: 700;
+  --semiBold: 600;
+  --medium: 500;
+  --regular: 400;
+
+  /* color */
+  --primary-color: #939597;
+  --secondary-color: #2d3134;
+  --tertiary-color: #2e476b;
+  --white-color: #fff;
+  --black-color: #000000;
+  --danger-color: #f66f4d;
+  --paragraph-color: #5b5f62;
+  --bg-color: #faf8ed;
+}
+
+/* font-size */
+.fs_2xs {
+  font-size: var(--fs-2xs);
+}
+.fs_xs {
+  font-size: var(--fs-xs);
+}
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+.fs_2sm {
+  font-size: var(--fs-2sm);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_2md {
+  font-size: var(--fs-2md);
+}
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+.fs_2lg {
+  font-size: var(--fs-2lg);
+}
+.fs_3lg {
+  font-size: var(--fs-3lg);
+}
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_2xl {
+  font-size: var(--fs-2xl);
+}
+.fs_3xl {
+  font-size: var(--fs-3xl);
+}
+
+/* font-family */
+.ff_primary {
+  font-family: var(--ff-primary);
+}
+.ff_secondary {
+  font-family: var(--secondary-color);
+}
+.ff_tertiary {
+  font-family: var(--ff-tertiary);
+}
+
+/* font-weight */
+.fw_bold {
+  font-weight: var(--bold);
+}
+
+.fw_semibold {
+  font-weight: var(--semiBold);
+}
+.fw_medium {
+  font-weight: var(--medium);
+}
+.fw_regular {
+  font-weight: var(--medium);
+}
+
+/* color */
+.primary_color {
+  color: var(--primary-color);
+}
+.secondar_color {
+  color: var(--secondary-color);
+}
+.tertiary_color {
+  color: var(--tertiary-color);
+}
+.white_color {
+  color: var(--white-color);
+}
+.black_color {
+  color: var(--black-color);
+}
+.danger_color {
+  color: var(--danger-color);
+}
+.paragraph_color {
+  color: var(--paragraph-color);
+}
+.bg_color {
+  color: var(--bg-color);
+}
+@media (min-width: 576px) {
+  :root {
     /* font-size */
     --fs-2xs: 12px;
     --fs-xs: 14px;
@@ -21,112 +144,41 @@
     --fs-xl: 46px;
     --fs-2xl: 56px;
     --fs-3xl: 84px;
-
-/* font-weight */
-   
-    --bold: 700;
-    --semiBold: 600;
-    --medium: 500;
-    --regular: 400;
-
-    /* color */
-    --primary-color: #939597;
-    --secondary-color: #2D3134;
-   --tertiary-color: #2E476B;
-    --white-color: #FFF;
-    --black-color: #000000;
-    --danger-color: #F66F4D;
-    --paragraph-color: #5B5F62;
-    --bg-color: #faf8ed !important;
-}
-
- /* font-size */
- .fs_2xs{
-    font-size: var(--fs-2xs);
- }
- .fs_xs{
-    font-size: var(--fs-xs);
- }
- .fs_sm{
-    font-size: var(--fs-sm);
- }
- .fs_2sm{
-    font-size: var(--fs-2sm);
- }
- .fs_md{
-    font-size: var(--fs-md);
- }
- .fs_2md{
-    font-size: var(--fs-2md);
- }
- .fs_lg{
-    font-size: var(--fs-lg);
- }
- .fs_2lg{
-    font-size: var(--fs-2lg);
- }
- .fs_3lg{
-    font-size: var(--fs-3lg);
- }
- .fs_xl{
-    font-size: var(--fs-xl);
- }
- .fs_2xl{
-    font-size: var(--fs-2xl);
- }
- .fs_3xl{
-    font-size: var(--fs-3xl);
- }
-
-
-/* font-family */
-.ff_primary {
-    font-family: var(--ff-primary);
-}
-.ff_secondary {
-    font-family: var(--secondary-color);
-}
-.ff_tertiary {
-    font-family: var(--ff-tertiary);
-}
-
- /* font-weight */
-  .fw_bold{
-    font-weight: var(--bold);
   }
- 
-  .fw_semibold{
-    font-weight: var(--semiBold);
+}
+@media (min-width: 768px) {
+  :root {
+    /* font-size */
+    --fs-2xs: 12px;
+    --fs-xs: 11px;
+    --fs-sm: 14px;
+    --fs-2sm: 18px;
+    --fs-md: 20px;
+    --fs-2md: 18px;
+    --fs-lg: 16px;
+    --fs-2lg: 26px;
+    --fs-3lg: 28px;
+    --fs-xl: 40px;
+    --fs-2xl: 45px;
+    --fs-3xl: 84px;
   }
-  .fw_medium{
-    font-weight: var(--medium);
+}
+@media (min-width: 992px) {
+  :root {
+    /* font-size */
+    --fs-2xs: 12px;
+    --fs-xs: 14px;
+    --fs-sm: 15px;
+    --fs-2sm: 18px;
+    --fs-md: 20px;
+    --fs-2md: 21px;
+    --fs-lg: 20px;
+    --fs-2lg: 26px;
+    --fs-3lg: 28px;
+    --fs-xl: 46px;
+    --fs-2xl: 50px;
+    --fs-3xl: 84px;
   }
-  .fw_regular{
-    font-weight: var(--medium);
-  }
-
-  /* color */
-.primary_color {
-    color: var(--primary-color);
 }
-.secondar_color {
-    color: var(--secondary-color);
-}
-.tertiary_color {
-color: var(--tertiary-color);
-}
-.white_color{
-    color: var(--white-color);
-}
-.black_color{
-    color: var(--black-color);
-}
-.danger_color{
-    color: var(--danger-color);
-}
-.paragraph_color{
-    color: var(--paragraph-color);
-}
-.bg_color{
-    color: var(--bg-color);
+@media (min-width: 1200px) {
 }

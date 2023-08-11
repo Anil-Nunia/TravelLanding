@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  list-style: none;
+}
+/* Our Experience */
+.card {
+  position: absolute;
+  width: 120px;
+  height: 180px;
+  border-radius: 20px;
+  background: #fff;
+  bottom: 23%;
+  left: -6%;
+  border: none !important;
+  box-shadow: 10px 14px 60px -3px rgba(174, 165, 115, 0.1) !important;
+}
+.card-2 {
+  position: absolute;
+  width: 150px;
+  height: 70px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 10px 14px 60px -3px rgba(174, 165, 115, 0.08) !important;
+  right: 10%;
+  bottom: 0;
+}
+.card-3 {
+  width: 166px;
+  height: 178px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.7);
+}
+/* Top Destinations */
+.bg_color1 {
+  background-color: #faf8ed !important;
+}
+.btn-1 {
+  padding: 10px 20px;
+  gap: 10px;
+  border-radius: 30px;
+  background: transparent;
+  color: #2d3134 !important;
+  border: 1px solid #2d3134;
+}
+.btn-1:hover {
+  background-color: #2d3134 !important ;
+  color: #fff !important;
+  transition: all 300ms linear;
+}
+.radius {
+  border-radius: 30px;
+}
+
+.gird-box {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  gap: 24px;
+}
+
+.grid-item1 {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+.grid-item2 {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+.grid-item3 {
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+.grid-item4 {
+  grid-row: 4/5;
+  grid-column: 1/2;
+}
+.grid-item5 {
+  grid-row: 5/6;
+  grid-column: 1/2;
+}
+.grid-item6 {
+  grid-row: 6/7;
+  grid-column: 1/2;
+}
+
+/* Find Popular Destination */
+.card-4 {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background-color: #fff;
+  box-shadow: 0px 24px 90px 0px rgba(192, 188, 161, 0.22);
+}
+.card-4:hover {
+  background: #faf8ed !important;
+}
+
+.btn-book {
+  color: #2d3134 !important;
+  padding: 10px 25px;
+  background-color: #fff;
+  border-radius: 45px;
+  border: 1px solid #2d3134;
+}
+.btn-book:hover {
+  background-color: #2d3134 !important;
+  color: #fff !important;
+  transition: all 300ms linear;
+}
+.slider-btn {
+  border: none !important;
+  background-color: transparent !important;
+}
+.next-btn {
+  transform: rotate(180deg) !important;
+}
+.icon:hover svg path {
+  stroke: white;
+}
+.icon:hover svg circle {
+  fill: #2d3134;
+}
+@media (min-width: 576px) {
+  .grid-item1 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  .grid-item2 {
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+  .grid-item3 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+  .grid-item4 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+  .grid-item5 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+  }
+  .grid-item6 {
+    grid-row: 3/4;
+    grid-column: 2/3;
+  }
+  .card {
+    width: 140px;
+    height: 218px;
+  }
+  .card-2 {
+    width: 171px;
+    height: 92px;
+  }
+}
+@media (min-width: 768px) {
+  .grid-item1 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  .grid-item2 {
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+  .grid-item3 {
+    grid-row: 1/2;
+    grid-column: 3/4;
+  }
+  .grid-item4 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+  .grid-item5 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+  .grid-item6 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+  }
+  .card {
+    width: 140px;
+    height: 218px;
+  }
+  .card-2 {
+    width: 171px;
+    height: 92px;
+  }
+}
+@media (min-width: 992px) {
+  .grid-item1 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  .grid-item2 {
+    grid-row: 1/3;
+    grid-column: 2/3;
+  }
+  .grid-item3 {
+    grid-row: 1/2;
+    grid-column: 3/5;
+  }
+  .grid-item4 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+  .grid-item5 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+  }
+  .grid-item6 {
+    grid-row: 2/3;
+    grid-column: 4/5;
+  }
+  .card {
+    width: 140px;
+    height: 218px;
+  }
+  .card-2 {
+    width: 171px;
+    height: 92px;
+  }
+  .card {
+    width: 140px;
+    height: 218px;
+  }
+  .card-2 {
+    width: 171px;
+    height: 92px;
+  }
+}
