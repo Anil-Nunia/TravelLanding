@@ -133,3 +133,58 @@ color: var(--tertiary-color);
 .bg_color{
     color: var(--bg-color);
 }
+
+@media (min-width:320px) {
+    :root{
+        --fs-2xs: 12px;
+        --fs-xs: 14px;
+        --fs-sm: 16px;
+        --fs-2sm: 18px;
+        --fs-md: 20px;
+        --fs-2md: 21px;
+        --fs-lg: 24px;
+        --fs-2lg: 26px;
+        --fs-3lg: 28px;
+        --fs-4lg: 40px;
+        --fs-xl: 46px;
+        --fs-2xl: 36px;
+        --fs-3xl: 42px;
+    }
+        
+}
+@media (min-width:320px) {
+    :root{
+        --fs-2xs: 12px;
+        --fs-xs: 14px;
+        --fs-sm: 16px;
+        --fs-2sm: 18px;
+        --fs-md: 20px;
+        --fs-2md: 21px;
+        --fs-lg: 24px;
+        --fs-2lg: 26px;
+        --fs-3lg: 28px;
+        --fs-4lg: 40px;
+        --fs-xl: 46px;
+        --fs-2xl: 36px;
+        --fs-3xl: 42px;
+    }
+     
+}
+@media (min-width:992px) {
+    :root{
+        --fs-2xs: 12px;
+        --fs-xs: 14px;
+        --fs-sm: 16px;
+        --fs-2sm: 18px;
+        --fs-md: 20px;
+        --fs-2md: 21px;
+        --fs-lg: 24px;
+        --fs-2lg: 26px;
+        --fs-3lg: 28px;
+        --fs-4lg: 40px;
+        --fs-xl: 46px;
+        --fs-2xl: 56px;
+        --fs-3xl: 84px;
+    }
+        
+}
