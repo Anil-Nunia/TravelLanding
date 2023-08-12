@@ -254,7 +254,7 @@ span:hover svg path {
     animation: spin 4s linear infinite;
 }
 
-.card {
+.card-1 {
     position: absolute;
     width: 120px;
     height: 180px;
@@ -385,11 +385,11 @@ span:hover svg path {
     transform: rotate(180deg) !important;
 }
 
-.icon:hover svg path {
+.icon-1:hover svg path {
     stroke: white;
 }
 
-.icon:hover svg circle {
+.icon-1:hover svg circle {
     fill: #2d3134;
 }
 
@@ -482,7 +482,7 @@ span:hover svg path {
     bottom: 15%;
 }
 
-.next-btn {
+.next-btn-1 {
     transform: rotate(180deg) !important;
 }
 
@@ -563,7 +563,18 @@ textarea {
 .icon_1:hover svg circle {
     stroke: #F66F4D;
 }
-
+span .icon-11 {
+    top: 65% !important;
+    position: absolute;
+    position: relative;
+    right: -20% !important;
+}
+div .icon-2 {
+    top: 65% !important;
+    position: absolute;
+    right: 170% !important;
+    position: relative;
+}
 .under_line::after {
     content: "";
     position: absolute;

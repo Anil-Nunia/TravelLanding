@@ -1,11 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none !important;
     box-sizing: border-box;
 }
-.card{
+
+.card {
     width: 537px;
     height: 283px;
     border-radius: 14px;
@@ -13,99 +14,124 @@
     padding: 30px 30px;
     cursor: pointer;
 }
-.card:hover{
+
+.card:hover {
     border-radius: 0;
 }
-.icon{
-   cursor: pointer;
+
+.icon {
+    cursor: pointer;
 }
-.icon:hover svg path{
+
+.icon:hover svg path {
     stroke: white;
 }
-.icon:hover svg circle{
+
+.icon:hover svg circle {
     fill: black;
 }
 
-.bttn_pstn{
+.bttn_pstn {
     background-color: transparent;
     border: none;
     position: absolute;
     right: 7%;
     bottom: 15%;
 }
-.bttn_pstn_1{
+
+.bttn_pstn_1 {
     background-color: transparent;
     border: none;
     position: absolute;
     right: 3%;
     bottom: 15%;
 }
-.next-btn{
+
+.next-btn {
     transform: rotate(180deg) !important;
 }
-.box_form{
+
+.box_form {
     width: 100%;
     height: 350px;
     border-radius: 30px;
     background: #FFD482;
     cursor: pointer;
 }
-.box_form:hover{
+
+.box_form:hover {
     border-radius: 0;
     background: #FFD482;
 }
+
 form {
-	overflow: hidden;
-	width: 40%;
-	position: relative;
-	display: flex;
-	align-items: center;
-	border-radius: 7px;
-	background: #fff;
+    overflow: hidden;
+    width: 40%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    background: #fff;
     margin-left: 30%;
     top: 8%;
 }
+
 form button {
-	position: absolute;
-	border: none;
-	padding: 10px;
-	right: 0;
-} 
-.form_bttn{
+    position: absolute;
+    border: none;
+    padding: 10px;
+    right: 0;
+}
+
+.form_bttn {
     background-color: transparent;
     border: none;
 }
+
 form input {
-	width: 100%;
-	padding: 20px;
-	outline: none;
-	border: none;
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    border: none;
 }
-button, input, optgroup, select, textarea {
+
+button,
+input,
+optgroup,
+select,
+textarea {
     margin: 0;
     font-family: inherit;
     font-size: 12px;
     line-height: inherit;
 }
-.img_pstn{
+
+.img_pstn {
     position: absolute;
     top: 0;
     left: 1%;
 }
-.clr{
+
+.clr {
     color: #676A6C;
 }
-.icon_1{
 
+.icon_1 {
     cursor: pointer;
 }
+
 .icon_1:hover svg path {
     fill: #F66F4D;
 }
+
 .icon_1:hover svg circle {
     stroke: #F66F4D;
 }
-.under_line::after{
+
+
+
+
+.under_line::after {
     content: "";
     position: absolute;
     width: 0;
@@ -114,57 +140,74 @@ button, input, optgroup, select, textarea {
     bottom: -5px;
     right: 50%;
 }
-.under_line:hover::after{
+
+.under_line:hover::after {
     width: 100%;
     right: 0;
     transition: 500ms linear;
-    
+
 }
-.under_line:hover{
+
+.under_line:hover {
     -webkit-text-stroke: 1px #F66F4D;
 }
+
+
 @media (min-width:320px) {
-    .bttn_pstn{
+    .bttn_pstn {
         right: 25%;
         bottom: 2%;
     }
-    .bttn_pstn_1{
+
+    .bttn_pstn_1 {
         right: 10%;
         bottom: 2%;
     }
+
     form {
         width: 70%;
         margin-left: 15%;
     }
 }
+
 @media (min-width:992px) {
-    .bttn_pstn{
+    .bttn_pstn {
         right: 10%;
         bottom: 2%;
     }
-    .bttn_pstn_1{
+
+    .bttn_pstn_1 {
         right: 3%;
         bottom: 2%;
     }
+
     form {
         width: 50%;
         margin-left: 25%;
     }
 }
+
 @media (min-width:1200px) {
-    .bttn_pstn{
+    .bttn_pstn {
         right: 8%;
         bottom: 28%;
     }
-    .bttn_pstn_1{
+
+    .bttn_pstn_1 {
         right: 3%;
         bottom: 28%;
     }
+
     form {
         width: 35%;
         margin-left: 33%;
     }
-    button, input, optgroup, select, textarea {
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
         font-size: 18px;
     }
 }
